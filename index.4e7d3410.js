@@ -8,7 +8,7 @@ let d={viewed:"checked",not_viewed:"unchecked"},o=document.querySelector("#movie
 				<label data-check="${a}" class="movie-label" for="check_${a}">${e.name}</label>
 			</div>
 			<button" class="movie-delete-btn">
-				<img data-movie="${a}" src="./resources/deleteMovieBtnImage.svg" alt="кнопка удаления фильма">
+				<img data-movie="${a}" src="./deleteMovieBtnImage.svg" alt="кнопка удаления фильма">
 			</button>
 		</div>`}),0==e.length?r.innerHTML="Фильмов нет, так что иди работай...":r.innerHTML=t};// Конструктор объекта Movie
 function p(e,t,a){this.name=e,this.date=t,this.status=a}// Удаление фильма

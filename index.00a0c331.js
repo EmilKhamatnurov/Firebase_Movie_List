@@ -9,7 +9,7 @@ let l=[];const u=(e,t)=>({id:e,name:t.name,date:t.date,status:t.status}),v=()=>{
 				<label data-check="${a}" class="movie-label" for="check_${a}">${e.name}</label>
 			</div>
 			<button" class="movie-delete-btn">
-				<img data-movie="${a}" src="deleteMovieBtnImage.svg" alt="кнопка удаления фильма">
+				<img data-movie="${a}" src="./deleteMovieBtnImage.svg" alt="кнопка удаления фильма">
 			</button>
 		</div>`}),0==e.length?c.innerHTML="Фильмов нет, так что иди работай...":c.innerHTML=t};// Конструктор объекта Movie
 function p(e,t,a){this.name=e,this.date=t,this.status=a}// Удаление фильма
